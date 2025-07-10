@@ -1,0 +1,29 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "mycelium"
+version = "0.1.0"
+description = "Fungal language decoding and mycelium data processing toolkit"
+authors = [
+    { name = "Zachary Leizerowicz", email = "your-email@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+dependencies = [
+    "numpy",
+    "scipy",
+    "torch",
+    "matplotlib",
+    "scikit-learn",
+    "pandas"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/mycelium_arduino_lib"
+Documentation = "https://github.com/yourusername/mycelium_arduino_lib/docs"
+
+[tool.maturin]
+bindings = "pyo3"

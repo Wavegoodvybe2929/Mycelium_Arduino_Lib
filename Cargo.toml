@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "rust-core/mycelium-io",
+    "rust-core/mycelium-dsp",
+    "rust-core/mycelium-lang",
+    "rust-core/mycelium-python"
+]
+
+[workspace.package]
+edition = "2021"
+
+[workspace.dependencies]
+# Shared dependencies can be added here if you'd like

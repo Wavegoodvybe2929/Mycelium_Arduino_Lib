@@ -1,0 +1,9 @@
+[package]
+name = "mycelium-io"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serialport = "4.2"
+lorawan = "0.6"  # Placeholder if you implement LoRaWAN decoding
+anyhow = "1.0"

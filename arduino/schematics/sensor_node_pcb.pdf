@@ -1,0 +1,12 @@
+Title: Mycelium Sensor Node PCB
+
+- Arduino Nano or similar footprint.
+- Connector pads for differential electrodes.
+- Optional footprint for instrumentation amplifier (e.g., INA333).
+- Footprint for RC filter components.
+- Pin headers for Serial/LoRa module connection.
+- Decoupling capacitors near supply and amplifier sections.
+- Test points for analog signals (A0, A1).
+- Optional battery circuit footprint (LiPo + charging module).
+
+Usage: Assemble as modular node board for field deployment; interfaces with gateway via Serial or LoRa.

@@ -1,0 +1,10 @@
+Title: Electrode Circuit Schematic
+
+- Two iridium-coated stainless steel needle electrodes.
+- Differential amplifier stage (optional): Instrumentation amplifier (e.g., INA333) with gain configured to ~100x.
+- RC low-pass filter on each input (~1 Hz cutoff) to suppress high-frequency noise.
+- Connection to Arduino analog pins A0 and A1 for direct differential reading.
+- Decoupling capacitors between supply rails (if amplifier used).
+- Shielding and twisted pair cabling indicated.
+
+Usage: Insert electrodes into mycelium substrate or fruit body, connect differential lines to amplifier (optional), then to Arduino.
